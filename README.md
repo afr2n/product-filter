@@ -30,7 +30,7 @@ To run the Product Filter locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/afr2n/product-filter.git
 ```
 
 2. Navigate to the project directory:
@@ -53,7 +53,7 @@ Once the installation is complete, you can start the development server to use t
 npm run dev
 ```
 
-Access the application in your web browser at [http://localhost:3000](http://localhost:3000).
+Access the application in your web browser at [http://localhost:5173/](http://localhost:5173/).
 
 ## Testing
 

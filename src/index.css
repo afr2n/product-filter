@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  width: 100vw;
+  display: block !important;
+}
+
+input {
+  border-radius: 3px !important;
+  padding-left:0.875rem;
+  padding-right:0.875rem;
+}
+.custom-input{
+  height:36px;
+}
+
+.btn-primary{
+  @apply bg-transparent hover:bg-white text-white hover:text-gray-700 py-2 px-4 border border-white hover:border-transparent rounded 
+}
+/* @layer base {
+  :root {
+    --color-accent-1: 255, 128, 0;
+    --color-accent-2: 0, 85, 255;
+    --color-bkg: 31, 41, 55;
+    --color-textColor: 255, 128, 0;
+  }
+}
+
+:root[data-theme="dark"] {
+  --color-accent-1: 255, 128, 0;
+  --color-accent-2: 0, 85, 255;
+  --color-bkg: 31, 41, 55;
+  --color-textColor: 255, 128, 0;
+} */
